@@ -15,6 +15,7 @@ nav,.navEle{
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    margin: 0px 80px;
 }
 .navEle{
     background-color: rgb(246, 246, 246);
@@ -43,7 +44,7 @@ nav,.navEle{
 }
 .navEleLeft > p,.navEleRight > p{
     margin: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .navEleRight > :last-child{
     margin-right: 3rem;
