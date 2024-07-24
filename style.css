@@ -1,15 +1,19 @@
+/* styling for root */
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* styling for body */
 body{
     background-color: rgb(245,245,245);
 }
+/* defining a class bmsBgColor to use it anywhere in html page for changing  element's background color */
 .bmsBgColor{
     background-color: rgb(245,245,245);
 }
+/* styling navbar and nav links div */
 nav,.navEle{
     display: flex;
     justify-content: space-between;
@@ -17,13 +21,16 @@ nav,.navEle{
     background-color: white;
     margin: 0px 80px;
 }
+/* styling for nav links div */
 .navEle{
     background-color: rgb(246, 246, 246);
 }
+/* styling divs inside navbar and nav links div */
 .navLeft,.navRight,.navEleLeft,.navEleRight{
     display: flex;
     align-items: center;
 }
+/* styling for images inside nav left div */
 .navLeft > img{
     width: 7rem;
     height: 3.5rem;
@@ -31,6 +38,7 @@ nav,.navEle{
     margin-left: 2.75rem;
     margin-right: 1.25rem;
 }
+/* styling for inputs inside nav left div */
 .navLeft > input{
     height: 2.5rem;
     width: 25rem;
@@ -39,25 +47,32 @@ nav,.navEle{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
+/* styling for inputs inside nav left div when clicked*/
 .navLeft > input:focus{
     outline: none;
 }
+/* styling for p tag in navEleLeft and navEleRight */
 .navEleLeft > p,.navEleRight > p{
     margin: 0.5rem;
     font-size: 0.9rem;
 }
+/* styling last element in navEleRight */
 .navEleRight > :last-child{
     margin-right: 3rem;
 }
+/* styling first element in navEleLeft */
 .navEleLeft > :first-child{
     margin-left: 2.75rem;
 }
+/* styling p tag , buttons , image in navEleRight */
 .navRight > p,button,image{
     margin: 1rem;
 }
+/* styling last element in navRight */
 .navRight > :last-child{
     margin-right: 3rem;
 }
+/* styling buttons in navRight */
 .navRight > button{
     background-color: rgb(249, 80, 80);
     color: white;
@@ -66,62 +81,77 @@ nav,.navEle{
     border-radius: 5px;
     padding: 0.3rem 0.9rem;
 }
+/* styling a div with class "display-templete" */
 .display-templete{
     margin-top: 5px;
     padding: 10px 0px;
 }
+/* styling a div "title" inside div with class "display-templete" */
 .display-templete .title{
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
 }
+/* styling p tag inside div "title" */
 .display-templete .title p{
     font-weight: 600;
     font-size: 24px;
     margin-left: 5px;
 }
+/* styling a tag inside div "title" */
 .display-templete .title a{
     color: rgb(203, 12, 12);
     text-decoration: none;
 }
+/* styling div "card" */
 .card{
     display: flex;
     justify-content: center;
 }
+/* styling div "card_items" */
 .card_items{
     padding: 1px 15px;
     margin: 0;
 }
+/* styling div ".show_title" inside "card_items" */
 .card_items .show_title{
     font-weight: 600;
 }
+/* styling div ".show_genre" inside "card_items" */
 .card_items .show_genre{
     color: rgb(99, 99, 99);
 }
+/* styling images inside "card_items" */
 .card_items img{
     width: 230px;
     border-radius: 10px;
 }
+/* styling p tag inside "card_items" */
 .card_items p{
     margin-left: 3px;
     display: block;
     max-width: 220px;
     word-wrap: break-word;
 }
+/* styling a div "promo_banner" */
 .promo_banner{
     padding: 30px 120px;
 }
+/* styling for class name "no-space-between" that can be used for making the elements to be in row and to start from left to right */
 .no-space-between{
     display: flex;
     justify-content: start;
 }
+/* styling for div "prrmire-sec" */
 .premire-sec{
     padding: 30px 120px;
     background-color: rgb(43,49,73);
 }
+/* styling for div "trending" */
 .trending{
     padding-bottom: 80px;
 }
+/* styling for div "item" in "trending" */
 .trending .item{
     width: fit-content;
     padding: 10px;
@@ -129,19 +159,23 @@ nav,.navEle{
     margin: 10px;
     background-color: white;
 }
+/* styling for div ".title" in "trending" */
 .trending .title{
     padding: 20px 0px;
 }
+/* styling for p tag in "title" */
 .trending .title p{
     font-weight: 600;
     font-size: 24px;
     margin-left: 5px;
 }
+/* styling for div "items" in "trending" */
 .trending .items{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+/* styling for first p tag and second p tag inside "item" */
 .item p:first-child{
     color: rgb(248,68,100);
     font-weight: bold;
@@ -149,6 +183,7 @@ nav,.navEle{
 .item p:nth-child(2){
     color: gray;
 }
+/* styling for div "list-your-show" and elements inside it */
 .list-your-show{
     display: flex;
     justify-content: space-between;
@@ -171,11 +206,13 @@ nav,.navEle{
     border: none;
     cursor: pointer;
 }
+/* styling svg */
 svg{
     width: 50px;
     fill: #A4A4A6;
     margin-top: 12px;
 }
+/* styling for div "service" and elements inside it */
 .service .items{
     display: flex;
     justify-content: space-evenly;
@@ -193,6 +230,7 @@ svg{
     color: #A4A4A6;
     margin: 12px;
 }
+/* styling for div "footer-links" and elements inside it */
 .footer-links{
     background-color: rgb(51,51,56);
     padding-bottom: 20px;
@@ -220,6 +258,7 @@ svg{
 .footer-links .item a:hover{
     color: white;
 }
+    /* styling for div named "line-banner" and elements inside , which contains hr and image elements */
   .line-banner {
     position: relative;
     width: 100%;
@@ -245,12 +284,13 @@ svg{
   .logo-container img {
     width: 150px;
   }
-
+  /* styling div "social-media" */
   .social-media{
     text-align: center;
     background-color: rgb(51,51,56);
     padding: 10px 0px;
   }
+  /* styling svgs inside div "social-media" */
   .social-media svg{
     margin: 0px 5px;
     fill: rgb(93,93,95);
