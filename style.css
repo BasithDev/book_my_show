@@ -19,7 +19,7 @@ nav,.navEle{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    margin: 0px 80px;
+    padding: 0px 80px;
 }
 /* styling for nav links div */
 .navEle{
