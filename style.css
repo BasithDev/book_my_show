@@ -10,9 +10,6 @@ body{
     background-color: rgb(245,245,245);
 }
 /* defining a class bmsBgColor to use it anywhere in html page for changing  element's background color */
-.bmsBgColor{
-    background-color: rgb(245,245,245);
-}
 /* styling navbar and nav links div */
 nav,.navEle{
     display: flex;
